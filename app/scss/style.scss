@@ -8,9 +8,9 @@ html {
 }
 
 body {
-    background-color: #dbda84;
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(2%,#dbda84),color-stop(108%,#f0edb9));
-    background-image: linear-gradient(#dbda84 2%,#f0edb9 108%);
+    background-color: #0e1a24;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(2%,#0e1a24),color-stop(108%,#b0a425));
+    background-image: linear-gradient(#0e1a24 2%,#b0a425 108%);
     color: #ffffff;
     min-height: 100vh;
     text-align: center;
@@ -31,7 +31,7 @@ body {
 
 a, a.featured {    
     &:hover {
-        background-color: #dbda84;
+        background-color: #0e1a24;
         color: #ffffff;
     }
 }
@@ -50,7 +50,7 @@ a {
     &.featured {
         position: relative;
         background-color: #ffffff;
-        color: #dbda84;
+        color: #0e1a24;
         font-weight: bold;
 
         &:before {
@@ -60,7 +60,7 @@ a {
             left: 2px;            
             width: calc(100% - 4px);
             height: calc(100% - 4px);
-            border: 2px solid #dbda84;
+            border: 2px solid #0e1a24;
         }
     }
 }
@@ -81,7 +81,7 @@ h2 {
         flex: 1;
         padding: 5px 10px;
         margin-right: 10px;
-        background-color: #dbda84;
+        background-color: #0e1a24;
         border: none;
 
         &:last-child {
